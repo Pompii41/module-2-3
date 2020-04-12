@@ -24,8 +24,8 @@ body {
 
 .link-color {
   text-decoration: none;
-  font-size: 20px;
-  font-family: "PlayfairDisplay";
+  font-size: 14px;
+  font-family: "Playfair Display";
   color: rgb(98, 98, 98);
   line-height: 1.714;
   width: 71px;
@@ -85,7 +85,7 @@ body {
 .lifestyle-header {
   margin-top: 30px;
   font-size: 30px;
-  font-family: "PlayfairDisplay";
+  font-family: "Playfair Display";
   color: rgb(98, 98, 98);
   line-height: 1.2;
   height: 30px;
@@ -94,7 +94,7 @@ body {
 .text-content {
   margin-top: 40px;
   font-size: 14px;
-  font-family: "PlayfairDisplay";
+  font-family: "Playfair Display";
   color: rgb(98, 98, 98);
   line-height: 1.714;
   width: 414px;
@@ -109,12 +109,12 @@ body {
 }
 .button-input {
   font-size: 20px;
-  font-family: "PlayfairDisplay";
+  font-family: "Playfair Display";
   color: rgb(98, 98, 98);
   line-height: 1.2;
   border-width: 1px;
-  border-color: rgb(98, 98, 98);
   border-style: solid;
   width: 162px;
   height: 58px;
+  border-color: #626262;
 }
