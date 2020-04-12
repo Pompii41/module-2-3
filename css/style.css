@@ -15,7 +15,7 @@ body {
 .conteiner {
   display: inline-block;
   width: 420px;
-  margin-bottom: 140px;
+  padding-bottom: 140px;
 }
 
 .conteiner:not(:nth-child(even)) {
@@ -84,17 +84,16 @@ body {
 
 .lifestyle-header {
   margin-top: 30px;
-  font-size: 30px;
-  font-family: "Playfair Display";
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
   color: rgb(98, 98, 98);
-  line-height: 1.2;
   height: 30px;
 }
 
 .text-content {
   margin-top: 40px;
   font-size: 14px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   color: rgb(98, 98, 98);
   line-height: 1.714;
   width: 414px;
@@ -105,11 +104,11 @@ body {
   display: inline-block;
   text-align: center;
   width: 900px;
-  margin-top: 55px;
+  margin-top: -15px;
 }
 .button-input {
   font-size: 20px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   color: rgb(98, 98, 98);
   line-height: 1.2;
   border-width: 1px;
@@ -117,4 +116,5 @@ body {
   width: 162px;
   height: 58px;
   border-color: #626262;
+  background-color: white;
 }
