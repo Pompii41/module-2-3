@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.conteiner-box {
+  width: 900px;
+}
+
+.conteiner {
+  display: inline-block;
+  width: 420px;
+  margin-bottom: 140px;
+}
+
+.conteiner:not(:nth-child(even)) {
+  margin-right: 55px;
+}
+
+.link-color {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  width: 71px;
+}
+
+.link-color:hover {
+  color: #46b1e4;
+  transition: 1s linear;
+}
+
+.link {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.link-one {
+  padding-right: 115px;
+}
+
+.link-two {
+  padding-right: 100px;
+}
+
+.link-three {
+  padding-right: 95px;
+}
+
+.links {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-header {
+  height: 190px;
+  margin-top: 70px;
+}
+
+.content-main {
+  margin: 0px 150px;
+  width: 900px;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.lifestyle {
+  padding-top: 30px;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  top: 1727.25px;
+  width: 63px;
+  height: 11px;
+}
+
+.lifestyle-header {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  height: 30px;
+}
+
+.text-content {
+  margin-top: 40px;
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  width: 414px;
+  height: 63px;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  width: 900px;
+  margin-top: 55px;
+}
+.button-input {
+  font-size: 20px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  width: 162px;
+  height: 58px;
+}
