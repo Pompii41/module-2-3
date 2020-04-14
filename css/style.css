@@ -13,10 +13,12 @@ body {
   margin-bottom: 133px;
   font-size: 0;
 }
+
 .conteiner-one,
 .conteiner-two {
   margin-bottom: 0px;
 }
+
 .conteiner:not(:nth-child(even)) {
   margin-right: 58px;
 }
@@ -40,16 +42,12 @@ body {
   display: inline-block;
 }
 
-.link-one {
+.link:nth-child(-n+2) {
   margin-right: 115px;
 }
 
-.link-two {
+.link-another {
   margin-right: 100px;
-}
-
-.link-three {
-  margin-right: 95px;
 }
 
 .links {
@@ -69,18 +67,17 @@ body {
   padding-bottom: 70px;
 }
 
-.lifestyle {
+.subtitle {
   padding-top: 30px;
   font-size: 14px;
   font-family: "Ubuntu";
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   line-height: 1.2;
-  top: 1727.25px;
-  width: 63px;
+
 }
 
-.lifestyle-header {
+.title-text {
   margin-top: 30px;
   font-size: 25px;
   font-family: "Playfair Display", serif;
@@ -102,6 +99,7 @@ body {
   margin: auto;
   margin-top: 55px;
 }
+
 .button-input {
   font-size: 20px;
   font-family: "Playfair Display", serif;
