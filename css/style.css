@@ -14,10 +14,10 @@ body {
   font-size: 0;
 }
 
-.conteiner-one,
-.conteiner-two {
+.conteiner:nth-child(n+5) {
   margin-bottom: 0px;
 }
+
 
 .conteiner:not(:nth-child(even)) {
   margin-right: 58px;
@@ -42,13 +42,11 @@ body {
   display: inline-block;
 }
 
-.link:nth-child(-n+2) {
-  margin-right: 115px;
+.link:nth-child(-n+3) {
+  margin-right: 110px;
 }
 
-.link-another {
-  margin-right: 100px;
-}
+
 
 .links {
   margin: 0 auto;
@@ -97,7 +95,7 @@ body {
   display: block;
   text-align: center;
   margin: auto;
-  margin-top: 55px;
+  padding-top: 55px;
 }
 
 .button-input {
@@ -108,7 +106,8 @@ body {
   border-width: 1px;
   border-style: solid;
   width: 162px;
-
   border-color: #626262;
   background-color: white;
+  height: 58px;
+
 }
